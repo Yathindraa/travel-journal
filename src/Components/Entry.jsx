@@ -4,7 +4,7 @@ export default function Entry() {
             <>
         <article className="article-1">
             <div className="main-image-container">
-            <img className="mt-fuji" src="src/assets/mtfuji.avif" alt="Mount Fuji"/>\
+            <img className="mt-fuji" src="src/assets/mtfuji.avif" alt="Mount Fuji"/>
             </div>
             <div className="content">
                 <div className="location-row">  

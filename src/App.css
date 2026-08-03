@@ -1,0 +1,65 @@
+.header{
+    display:flex;
+    background: rgb(232, 74, 74);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+
+.header > img{
+    width: 100px;
+    margin-right: 7px;
+}
+
+.main-image-container{
+    max-width: 250px;
+    max-height: 500px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.mt-fuji{
+    width: 200px;
+    margin: 40px 20px;
+    border-radius: 10px;
+}
+
+.article-1{
+    display: flex;
+}
+
+.content{
+    margin-top:30px;
+    max-width: 500px;;
+}
+
+.location-row{
+    display:flex;
+    align-items: center;
+}
+
+.location-row p{
+    margin-right: 5px;
+}
+
+.map-marker{
+    width: 20px;
+}
+
+.place-name{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}

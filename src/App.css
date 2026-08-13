@@ -19,9 +19,10 @@
     flex-shrink: 0;
 }
 
-.mt-fuji{
-    width: 200px;
-    margin: 40px 20px;
+.main-image-container img{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -29,9 +30,10 @@
     display: flex;
 }
 
-.content{
-    margin-top:30px;
-    max-width: 500px;;
+.content {
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 500px;
 }
 
 .location-row{
